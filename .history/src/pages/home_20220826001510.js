@@ -70,7 +70,7 @@ function Home() {
                     <img className="mb-4" src="https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png" alt="" />
                 </div>
                 <Title text="Skills" />
-                <div id="skills" className="w-4/5 mx-auto grid lg:grid-cols-2 sm:grid-cols-1 mb-10">
+                <div id="skills" className="w-4/5 mx-auto grid grid-cols-2 sm:grid-cols-1 mb-10">
                     {
                         skills.map((skill, i) => (
                             <div className="flex grid-2 mb-6 mx-5 items-center">
@@ -83,10 +83,10 @@ function Home() {
                 <JobHistory />
                 <Title text="Work Samples" />
                 <Gallery />
-                <div className="contact fixed left-0 top-2/4 ">
-                    <div className="mx-auto  w-fit rounded-full py-2 bg-white shadow-lg shadow-blue-500/50">
-                        <a href="https://github.com/zahid0033?tab=repositories"><AiFillGithub size={'2rem'} /></a>
-                        <a href="https://www.facebook.com/zahidhossain123/"><AiFillFacebook size={'2rem'} /></a>
+                <div className="contact fixed bottom-0 w-full">
+                    <div className="flex mx-auto  w-fit rounded-full px-10 bg-white shadow-lg shadow-blue-500/50">
+                        <AiFillGithub size={'2rem'} />
+                        <AiFillFacebook size={'2rem'} />
                     </div>
                 </div>
 

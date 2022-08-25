@@ -26,7 +26,7 @@ function Gallery() {
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                src="https://setcolbd.com/static/media/dream-world-corporation.dfe2580f.webp" />
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"

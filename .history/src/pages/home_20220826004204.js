@@ -86,7 +86,7 @@ function Home() {
                 <div className="contact fixed left-0 top-2/4 ">
                     <div className="mx-auto  w-fit rounded-full py-2 bg-white shadow-lg shadow-blue-500/50">
                         <a href="https://github.com/zahid0033?tab=repositories"><AiFillGithub size={'2rem'} /></a>
-                        <a href="https://www.facebook.com/zahidhossain123/"><AiFillFacebook size={'2rem'} /></a>
+                        <a href="/home"><AiFillFacebook size={'2rem'} /></a>
                     </div>
                 </div>
 
