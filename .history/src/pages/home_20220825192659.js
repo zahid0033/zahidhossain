@@ -79,10 +79,10 @@ function Home() {
                         ))
                     }
                 </div>
-                <Title text="Work History" />
-                <JobHistory />
                 <Title text="Work Samples" />
                 <Gallery />
+                <Title text="Work History" />
+                <JobHistory />
                 <div className="contact fixed bottom-0 w-full">
                     <div className="flex mx-auto  w-fit rounded-full px-10 bg-white shadow-lg shadow-blue-500/50">
                         <AiFillGithub size={'2rem'} />

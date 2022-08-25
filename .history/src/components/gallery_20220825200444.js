@@ -2,7 +2,7 @@ import React from "react";
 
 function Gallery() {
     return (
-        <section className="w-4/5 mx-auto overflow-hidden text-gray-700 py-10 mb-8">
+        <section className="w-4/5 mx-auto overflow-hidden text-gray-700 py-10">
             <div className="container py-2 mx-auto ">
                 <div className="flex flex-wrap -m-1 md:-m-2">
                     <div className="flex flex-wrap w-1/2">
