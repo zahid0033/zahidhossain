@@ -2,8 +2,8 @@ import React from "react";
 
 function Gallery() {
     return (
-        <section className="overflow-hidden text-gray-700">
-            <div className="container px-5 py-2 mx-auto  lg:px-32">
+        <section className="w-4/5 mx-auto overflow-hidden text-gray-700">
+            <div className="container py-2 mx-auto ">
                 <div className="flex flex-wrap -m-1 md:-m-2">
                     <div className="flex flex-wrap w-1/2">
                         <div className="w-1/2 p-1 md:p-2">

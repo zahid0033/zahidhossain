@@ -67,7 +67,7 @@ function Home() {
                 <img className="mb-4" src="https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png" alt="" />
             </div>
             <Title text="Skills" />
-            <div id="skills" className="grid grid-cols-2 mb-10">
+            <div id="skills" className="w-4/5 mx-auto grid grid-cols-2 mb-10">
                 {
                     skills.map((skill, i) => (
                         <div className="flex grid-2 mb-6 mx-5 items-center">
