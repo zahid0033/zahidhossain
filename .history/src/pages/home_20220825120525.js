@@ -81,7 +81,7 @@ function Home() {
             <Title text="Work History" />
 
             <div className="contact fixed bottom-0 w-full">
-                <div className="flex mx-auto  w-fit rounded-full px-10 bg-white shadow-lg shadow-blue-500/50">
+                <div className="flex justify-center w-fit rounded-full px-10 bg-white">
                     <AiFillGithub size={'2rem'} />
                     <AiFillFacebook size={'2rem'} />
                 </div>

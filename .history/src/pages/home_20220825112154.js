@@ -2,7 +2,6 @@ import React from "react";
 import Progressbar from "../components/progressbar";
 import Title from "../components/title";
 import Gallery from "../components/gallery.js";
-import { AiFillGithub, AiFillFacebook } from "react-icons/ai"
 
 function Home() {
     var skills = [
@@ -61,7 +60,7 @@ function Home() {
                 </div>
             </div>
             <div className="w-4/5 mx-auto grid grid-cols-4 gap-4 items-center">
-                <img className="transition duration-0 hover:duration-150 ease-in-out mb-4" src="https://dreamlpg.com/assets/images/logo/logo2.png" alt="" />
+                <img className="transition duration-0 hover:duration-150 mb-4" src="https://dreamlpg.com/assets/images/logo/logo2.png" alt="" />
                 <img className="mb-4" src="https://i.ibb.co/Cw4cFTr/download.png" alt="" />
                 <img className="mb-4" src="https://i.ibb.co/682Pkby/1640089257430-removebg-preview.png" alt="" />
                 <img className="mb-4" src="https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png" alt="" />
@@ -79,13 +78,6 @@ function Home() {
             <Title text="Work Samples" />
             <Gallery />
             <Title text="Work History" />
-
-            <div className="contact fixed bottom-0 w-full">
-                <div className="flex mx-auto  w-fit rounded-full px-10 bg-white shadow-lg shadow-blue-500/50">
-                    <AiFillGithub size={'2rem'} />
-                    <AiFillFacebook size={'2rem'} />
-                </div>
-            </div>
         </div>
     )
 }
