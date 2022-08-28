@@ -10,7 +10,7 @@ const AbTestSnippet = () => {
     return (
         <>
             <h1 className="text-white text-4xl mb-10 mt-12 text-center">Snippets</h1>
-            <div className="mx-16 px-16 sm:mx-2 sm:px-2 grid grid-cols-4 gap-4">
+            <div className="mx-16 px-16 grid grid-cols-4 gap-4">
                 <div>
                     <ul className="space-y-6 lg:space-y-2 border-l border-slate-100 dark:border-slate-800">
                         {
