@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 const AbTestSnippet = () => {
     const [clickedSnippetNumber, setClickedSnippetNumber] = useState(0)
     const [showLineNumber, setShowLineNumbers] = useState(false)
-    const [theme, setTheme] = useState("github")
+    const [theme, setTheme] = useState("dracula")
 
     return (
         <>

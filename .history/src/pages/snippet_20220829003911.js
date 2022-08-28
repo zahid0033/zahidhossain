@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 const AbTestSnippet = () => {
     const [clickedSnippetNumber, setClickedSnippetNumber] = useState(0)
     const [showLineNumber, setShowLineNumbers] = useState(false)
-    const [theme, setTheme] = useState("github")
+    const [theme, setTheme] = useState("dracula")
 
     return (
         <>
@@ -46,7 +46,7 @@ const AbTestSnippet = () => {
                         text={abTastySnippetsData[clickedSnippetNumber].code}
                         language="js"
                         showLineNumbers={showLineNumber}
-                        theme={theme == "dracula" ? dracula : github}
+                        theme={theme}
                     />;
                 </div>
 
