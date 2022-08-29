@@ -47,7 +47,7 @@ function Home() {
                         <Title text="Md. Zahid Hossain" />
                         <p className="text-4xl mb-8">Software Engineer</p>
                         <div className="resumeCta">
-                            <a href="/cv.pdf" download class="inline-flex px-6 pt-2.5 pb-2 bg-blue-600 text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg flex items-center">
+                            <a href="/bubbles.pdf" download class="px-6 pt-2.5 pb-2 bg-blue-600 text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                     class="w-3 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="currentColor"
@@ -85,7 +85,7 @@ function Home() {
                 <Gallery />
                 <div className="contact fixed left-0 top-2/4 ">
                     <div className="mx-auto  w-fit rounded-full py-2 bg-white shadow-lg shadow-blue-500/50">
-                        <a href="https://github.com/zahid0033?tab=repositories" className="transition ease-in-out delay-150 hover:-translate-y-1 scale-95 hover:scale-100 duration-500"><AiFillGithub size={'2rem'} /></a>
+                        <a href="https://github.com/zahid0033?tab=repositories"><AiFillGithub size={'2rem'} /></a>
                         <a href="https://www.facebook.com/zahidhossain123/"><AiFillFacebook size={'2rem'} /></a>
                     </div>
                 </div>
