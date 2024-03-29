@@ -17,16 +17,15 @@ function JobHistory() {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                Echologyx LTD
+                SELCOLBD LTD
               </p>
               <p className="text-md text-lime-300 tracking-wider">
                 {" "}
-                Web Developer{" "}
+                Internship{" "}
               </p>
               <p className="text-sm text-orange-50">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest. Michael
-                Knight a young loner.
+                I did intern with the responsibility of making dynamic website
+                with laravel and basic frontend languages.
               </p>
             </div>
           </div>
@@ -97,15 +96,16 @@ function JobHistory() {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                SELCOLBD LTD
+                Echologyx LTD
               </p>
               <p className="text-md text-lime-300 tracking-wider">
                 {" "}
-                Internship{" "}
+                Web Developer{" "}
               </p>
               <p className="text-sm text-orange-50">
-                I did intern with the responsibility of making dynamic website
-                with laravel and basic frontend languages.
+                The first mate and his Skipper too will do their very best to
+                make the others comfortable in their tropic island nest. Michael
+                Knight a young loner.
               </p>
             </div>
           </div>
