@@ -119,26 +119,25 @@ const Home = () => {
           ))}
         </div>
         <Title text="Expertise in CRO Tool" />
-        <div className="w-4/5 mx-auto grid grid-cols-4 gap-4 items-center croTool">
+        <div className="w-4/5 mx-auto grid grid-cols-4 gap-4 items-center">
           <img
             className="transition duration-0 hover:duration-150 ease-in-out mb-4"
-            src="https://auth.abtasty.com/logo-abtasty.svg"
-            alt="ABTasty"
-          />
-          <img
-            className="mb-4"
-            src="https://www.coveo.com/public/img/logos/coveo/coveo_logo_en.svg"
+            src="https://dreamlpg.com/assets/images/logo/logo2.png"
             alt=""
           />
           <img
             className="mb-4"
-            src="https://static.wingify.com/gcp/images/vwo-logo-white.svg"
+            src="https://i.ibb.co/Cw4cFTr/download.png"
             alt=""
           />
-
           <img
             className="mb-4"
-            src="https://www.guberman.co.il/sites/guberman/files/client_logos/dynamic-yield-logo-300x145.png"
+            src="https://i.ibb.co/682Pkby/1640089257430-removebg-preview.png"
+            alt=""
+          />
+          <img
+            className="mb-4"
+            src="https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png"
             alt=""
           />
         </div>

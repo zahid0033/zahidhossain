@@ -6,13 +6,13 @@ function JobHistory() {
       <div className="grid max-w-2xl mx-auto">
         <div className="flex">
           <div className="flex flex-col items-center mr-6">
-            <div className="w-px h-10 opacity-0 sm:h-full" />
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
             <div>
               <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full bg-white">
-                1
+                4
               </div>
             </div>
-            <div className="w-px h-full bg-gray-300" />
+            <div className="w-px h-full opacity-0" />
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
@@ -86,13 +86,13 @@ function JobHistory() {
         </div>
         <div className="flex">
           <div className="flex flex-col items-center mr-6">
-            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div className="w-px h-10 opacity-0 sm:h-full" />
             <div>
               <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full bg-white">
-                4
+                1
               </div>
             </div>
-            <div className="w-px h-full opacity-0" />
+            <div className="w-px h-full bg-gray-300" />
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>

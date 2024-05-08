@@ -119,7 +119,7 @@ const Home = () => {
           ))}
         </div>
         <Title text="Expertise in CRO Tool" />
-        <div className="w-4/5 mx-auto grid grid-cols-4 gap-4 items-center croTool">
+        <div className="w-4/5 mx-auto grid grid-cols-4 gap-4 items-center">
           <img
             className="transition duration-0 hover:duration-150 ease-in-out mb-4"
             src="https://auth.abtasty.com/logo-abtasty.svg"
@@ -138,7 +138,8 @@ const Home = () => {
 
           <img
             className="mb-4"
-            src="https://www.guberman.co.il/sites/guberman/files/client_logos/dynamic-yield-logo-300x145.png"
+            // src="https://www.guberman.co.il/sites/guberman/files/client_logos/dynamic-yield-logo-300x145.png"
+            src="https://i.pinimg.com/280x280_RS/f8/84/39/f88439346e66d5c69002ff0d2e9eb084.jpg"
             alt=""
           />
         </div>
