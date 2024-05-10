@@ -11,7 +11,7 @@ body {
   filter: drop-shadow(1px 1px 1px rgba(229, 235, 168, 0.7));
   max-width: 80%;
   transform: rotateZ(-10deg);
-  margin: auto ;
+  margin: auto;
 }
 .croTool img:nth-child(odd){
   transform: rotateZ(10deg);

@@ -75,9 +75,7 @@ function Footer() {
             cycle for dynamic web projects.
           </p>
 
-          <p class="text-xs font-medium text-white">
-            {new Date().getFullYear()} @Md. Zahid Hossain
-          </p>
+          <p class="text-xs font-medium text-white">2024 @Md. Zahid Hossain</p>
           <button
             type="button"
             className="hiddenButton"
@@ -87,7 +85,7 @@ function Footer() {
           >
             Click Here
           </button>
-          <Link to="/snippets"> Snippets</Link>
+          <Link to="/snippets">Snippets</Link>
           {clickStatus && (
             <div>
               <form className="flex">

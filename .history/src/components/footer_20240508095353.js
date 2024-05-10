@@ -87,7 +87,7 @@ function Footer() {
           >
             Click Here
           </button>
-          <Link to="/snippets"> Snippets</Link>
+          <Link to="/snippets">Snippets</Link>
           {clickStatus && (
             <div>
               <form className="flex">

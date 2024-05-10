@@ -8,13 +8,11 @@ body {
 }
 .croTool img {
   -webkit-filter: drop-shadow(12px 12px 7px rgba(229, 235, 168, 0.7));
-  filter: drop-shadow(1px 1px 1px rgba(229, 235, 168, 0.7));
+  filter: drop-shadow(2px 1px 2px rgba(229, 235, 168, 0.7));
   max-width: 80%;
-  transform: rotateZ(-10deg);
-  margin: auto ;
 }
-.croTool img:nth-child(odd){
-  transform: rotateZ(10deg);
+.croTool img:hover .croTool img{
+  animation: croTools 2s infinite;
 }
 /* @keyframes croTools {
   0% {
@@ -24,8 +22,15 @@ body {
     transform: rotateY(-30deg);
   }
 } */
-/* @keyframes croTools {
-  100% {
-    transform: rotateZ(0deg);
+@keyframes croTools {
+  0% {
+    transform: translateY(0);
   }
-} */
+  50% {
+    transform: translateY(30px);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
