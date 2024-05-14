@@ -45,6 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex-1 text-center">
+          {/* <img className="max-w-full h-auto rounded-full" src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw9c230986/Y0998004/Y0998004_C099600456_E01_ZHC.jpg?sw=1200&sh=800" /> */}
           <img
             src="https://i.ibb.co/YQWhHGX/IMG-0946-1-removebg-preview.png"
             className="-skew-y-6 -translate-y-4"

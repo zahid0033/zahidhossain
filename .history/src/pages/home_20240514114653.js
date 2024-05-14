@@ -45,6 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex-1 text-center">
+          {/* <img className="max-w-full h-auto rounded-full" src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw9c230986/Y0998004/Y0998004_C099600456_E01_ZHC.jpg?sw=1200&sh=800" /> */}
           <img
             src="https://i.ibb.co/YQWhHGX/IMG-0946-1-removebg-preview.png"
             className="-skew-y-6 -translate-y-4"
@@ -62,6 +63,21 @@ const Home = () => {
               alt={office.title}
             />
           ))}
+          <img
+            className="mb-4"
+            src="https://i.ibb.co/Cw4cFTr/download.png"
+            alt="Setcol"
+          />
+          <img
+            className="mb-4"
+            src="https://i.ibb.co/682Pkby/1640089257430-removebg-preview.png"
+            alt="Kernel"
+          />
+          <img
+            className="mb-4"
+            src="https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png"
+            alt="Echologyx"
+          />
         </div>
         <Title text="Skills" />
         <div
@@ -86,6 +102,11 @@ const Home = () => {
               alt={tool.title}
             />
           ))}
+          {/* <img
+            className="mb-4"
+            src="https://www.guberman.co.il/sites/guberman/files/client_logos/dynamic-yield-logo-300x145.png"
+            alt="Dynamic yield"
+          /> */}
         </div>
         <Title text="Work History" />
         <JobHistory />
