@@ -21,18 +21,13 @@ function JobHistory() {
               </p>
               <p className="text-md text-lime-300 tracking-wider">
                 {" "}
-                CRO Developer{" "}
+                Web Developer{" "}
               </p>
               <p className="text-sm text-orange-50">
                 Working as a software engineer for several years. Here I am done
                 more than 800 A/B Test projects. Which are most renowned brands
-                in the world. Besides worked on the in-hours HRM software
-                project as a frontend developer
+                in the world
               </p>
-              <b className="text-sm text-orange-50">
-                Skills: Dynamic yield | ABTasty | Qubit | Optimizely | Kameleoon
-                | Convert
-              </b>
             </div>
           </div>
         </div>

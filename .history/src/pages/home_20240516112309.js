@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <div className="text-gray-500 flex px-10 mb-">
-        <div className="flex justify-center flex-1 text-white flex-col ml-40">
+        <div className="flex justify-center flex-1 text-white flex-col ml-4">
           <h1 className="text-3xl mb-5">Hello! I am</h1>
           <h1 className="text-amber-200 text-4xl font-bold tracking-widest uppercase mb-5">
             MD. Zahid Hossain

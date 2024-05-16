@@ -2,7 +2,7 @@ import React from "react";
 import Progressbar from "../components/progressbar";
 import Title from "../components/title";
 import Gallery from "../components/gallery.js";
-import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillFacebook } from "react-icons/ai";
 import Footer from "../components/footer";
 import JobHistory from "../components/jobHistory";
 import { getAllskills, getCroTools, getOffices } from "../data/data.js";
@@ -14,13 +14,13 @@ const Home = () => {
   return (
     <>
       <div className="text-gray-500 flex px-10 mb-">
-        <div className="flex justify-center flex-1 text-white flex-col ml-40">
+        <div className="flex justify-center flex-1 text-white flex-col">
           <h1 className="text-3xl mb-5">Hello! I am</h1>
-          <h1 className="text-amber-200 text-4xl font-bold tracking-widest uppercase mb-5">
+          <h1 className="text-amber-200 text-4xl font-bold tracking-widest uppercase">
             MD. Zahid Hossain
           </h1>
-          <p className="text-xl mb-1">Software Engineer | CRO Developer</p>
-          <p className="text-l mb-8">zahidhossain0022@gmail.com</p>
+          <p className="text-xl mb-8">Software Engineer | CRO Developer</p>
+          <p className="text-sm mb-8">zahidhossain0022@gmail.com</p>
           <div className="resumeCta">
             {/* <button
               type="button"
@@ -101,11 +101,8 @@ const Home = () => {
             >
               <AiFillGithub size={"2rem"} />
             </a>
-            <a
-              href="https://www.linkedin.com/in/zahid-hossain-dev/"
-              target="blank"
-            >
-              <AiFillLinkedin size={"2rem"} />
+            <a href="https://www.facebook.com/zahidhossain123/">
+              <AiFillFacebook size={"2rem"} />
             </a>
           </div>
         </div>

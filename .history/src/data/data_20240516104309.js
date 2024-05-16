@@ -25,7 +25,7 @@ const skillsData = [
   },
 
   {
-    skillName: "Node",
+    skillName: "Next",
     percentage: "80%",
   },
 ];

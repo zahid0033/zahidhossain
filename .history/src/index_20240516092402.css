@@ -17,6 +17,21 @@ body {
 .croTool img:nth-child(odd){
   transform: rotateZ(10deg);
 }
+.croTool .abtasty{
+  width: 80%;
+}
+.croTool .qubit{
+  width: 80%;
+}
+.croTool .vwo{
+  width: 60%;
+}
+.croTool .yield {
+  width: 100%;
+}
+.croTool .optimizely {
+  width: 95%;
+}
 /* @keyframes croTools {
   0% {
     transform: rotateY(30deg);

@@ -4,7 +4,7 @@ const skillsData = [
     percentage: "80%",
   },
   {
-    skillName: "Next",
+    skillName: "Node",
     percentage: "70%",
   },
   {
@@ -25,7 +25,7 @@ const skillsData = [
   },
 
   {
-    skillName: "Node",
+    skillName: "React",
     percentage: "80%",
   },
 ];
@@ -75,7 +75,7 @@ const croTools = [
   {
     title: "Monetate",
     logo: "https://marketer.monetate.net/site_media/images/Monetate-logo-login.svg",
-    styleWidth: "85%",
+    styleWidth: "75%",
   },
 ];
 

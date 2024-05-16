@@ -13,6 +13,7 @@ body {
   transform: rotateZ(-10deg);
   margin: auto ;
   margin-bottom: 3em;
+  gap: 20px
 }
 .croTool img:nth-child(odd){
   transform: rotateZ(10deg);
