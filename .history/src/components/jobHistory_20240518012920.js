@@ -67,7 +67,7 @@ function JobHistory() {
             <div className="w-px h-10 bg-gray-300 sm:h-full" />
             <div>
               <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full bg-white">
-                3
+                4
               </div>
             </div>
             <div className="w-px h-full opacity-0" />

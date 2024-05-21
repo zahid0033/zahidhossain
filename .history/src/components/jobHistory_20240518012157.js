@@ -70,6 +70,33 @@ function JobHistory() {
                 3
               </div>
             </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
+            <div>
+              <p className="text-2xl text-orange-300 font-semibold uppercase">
+                Dream Technologies
+              </p>
+              <p className="text-md text-lime-300 tracking-wider">
+                {" "}
+                Web Developer{" "}
+              </p>
+              <p className="text-sm text-orange-50">
+                The first mate and his Skipper too will do their very best to
+                make the others comfortable in their tropic island nest. Michael
+                Knight a young loner.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full bg-white">
+                4
+              </div>
+            </div>
             <div className="w-px h-full opacity-0" />
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">

@@ -2,11 +2,10 @@ import React from "react";
 import Progressbar from "../components/progressbar";
 import Title from "../components/title";
 import Gallery from "../components/gallery.js";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
 import Footer from "../components/footer";
 import JobHistory from "../components/jobHistory";
 import { getAllskills, getCroTools, getOffices } from "../data/data.js";
-import NavBar from "../components/NavBar.jsx";
 
 const Home = () => {
   const skills = getAllskills();
@@ -14,10 +13,9 @@ const Home = () => {
   const offices = getOffices();
   return (
     <>
-      <NavBar />
-      <div className="text-gray-500 flex px-10 grid sm:grid-cols-1 lg:grid-cols-2">
+      <div className="text-gray-500 flex px-10 grid sm:grid-cols-1 grid-cols-2">
         <div className="flex justify-center flex-1 text-white flex-col lg:ml-40">
-          <h1 className="text-3xl my-10">Hello! I am</h1>
+          <h1 className="text-3xl mb-5">Hello! I am</h1>
           <h1 className="text-amber-200 text-4xl font-bold tracking-widest uppercase mb-5">
             MD. Zahid Hossain
           </h1>
@@ -48,28 +46,16 @@ const Home = () => {
           </div>
         </div>
         <div className="flex-1 text-center">
-          <div className="relative">
-            <img
-              src="https://i.ibb.co/YQWhHGX/IMG-0946-1-removebg-preview.png"
-              className="-skew-y-6 lg:-translate-y-4"
-              alt=""
-            />
-            <div className="absolute bg-slate-50 absolute lg:top-62 md:top-56 sm:top-52 md:left-60 sm:left-40 p-2 rounded-lg shadow-md dark:shadow-gray-800 bg-white w-44 text-center">
-              <h5 className="font-semibold">Web Developer</h5>
-              <p className="text-sm text-slate-400 mt-1">
-                3+ years of experience
-              </p>
-            </div>
-            <div className="absolute bg-slate-50 p-2 absolute lg:bottom-28 md:bottom-10 bottom-2 md:-left-12 sm:left-px rounded-lg shadow-md dark:shadow-gray-800 bg-white m-3 w-44 text-center">
-              <h5 className="text-xl font-medium mb-0 font-bold">600+</h5>
-              <p>A/B Test Completed</p>
-            </div>
-          </div>
+          <img
+            src="https://i.ibb.co/YQWhHGX/IMG-0946-1-removebg-preview.png"
+            className="-skew-y-6 lg:-translate-y-4 "
+            alt=""
+          />
         </div>
       </div>
       <div className="w-full border-t-4 -skew-y-6 block translate-y-px lg:block "></div>
       <div className="mx-10">
-        <div className="sm:w-5/5 lg:w-4/5 mx-auto grid grid-cols-4 gap-4 items-center">
+        <div className="w-4/5 mx-auto grid grid-cols-4 gap-4 items-center">
           {offices.map((office) => (
             <img
               className="transition duration-0 hover:duration-150 ease-in-out mb-4"
@@ -84,7 +70,7 @@ const Home = () => {
           className="w-4/5 mx-auto grid lg:grid-cols-2 sm:grid-cols-1 mb-10"
         >
           {skills.map((skill, i) => (
-            <div className="flex grid-2 mb-6 lg:mx-5 items-center">
+            <div className="flex grid-2 mb-6 mx-5 items-center">
               <Progressbar
                 skillName={skill.skillName}
                 percentage={skill.percentage}
@@ -93,7 +79,7 @@ const Home = () => {
           ))}
         </div>
         <Title text="Expertise in CRO Tool" />
-        <div className="sm:w-5/5 lg:w-4/5 lg:mx-auto grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-center croTool py-10">
+        <div className="w-4/5 mx-auto grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-center croTool py-10">
           {croTools.map((tool) => (
             <img
               className={`transition duration-0 hover:duration-150 ease-in-out mb-4 ${tool.title.toLowerCase()}`}
