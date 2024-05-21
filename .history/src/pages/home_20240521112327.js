@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <div className="text-gray-500 px-10 grid sm:grid-cols-1 lg:grid-cols-2">
+      <div className="text-gray-500 flex px-10 grid sm:grid-cols-1 lg:grid-cols-2">
         <div className="flex justify-center flex-1 text-white flex-col lg:ml-40">
           <h1 className="text-3xl my-10">Hello! I am</h1>
           <h1 className="text-amber-200 text-4xl font-bold tracking-widest uppercase mb-5">
@@ -61,7 +61,7 @@ const Home = () => {
               </p>
             </div>
             <div className="absolute bg-slate-50 p-2 lg:bottom-28 md:bottom-10 bottom-2 md:-left-12 sm:left-px rounded-lg shadow-md dark:shadow-gray-800 m-3 w-44 text-center">
-              <h5 className="text-xl font-medium mb-0">600+</h5>
+              <h5 className="text-xl font-medium mb-0 font-bold">600+</h5>
               <p>A/B Test Completed</p>
             </div>
           </div>
