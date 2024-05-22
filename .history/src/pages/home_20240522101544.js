@@ -2,12 +2,12 @@ import React from "react";
 import Progressbar from "../components/progressbar";
 import Title from "../components/title";
 import Gallery from "../components/gallery.js";
-import Footer from "../components/Footer.jsx";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import Footer from "../components/footer";
 import JobHistory from "../components/jobHistory";
 import { getAllskills, getCroTools, getOffices } from "../data/data.js";
 import NavBar from "../components/NavBar.jsx";
 import HeroBanner from "../components/heroBanner.jsx";
-import FloatingContact from "../components/FloatingContact.jsx";
 
 const Home = () => {
   const skills = getAllskills();
@@ -22,7 +22,6 @@ const Home = () => {
           <img
             className="transition duration-0 hover:duration-150 ease-in-out mb-4"
             src=""
-            alt=""
           />
 
           {offices.map((office, i) => (
@@ -64,7 +63,22 @@ const Home = () => {
         </div>
         <Title text="Work Samples" />
         <Gallery />
-        <FloatingContact />
+        <div className="contact fixed left-0 top-2/4 ">
+          <div className="mx-auto  w-fit rounded-full py-2 bg-white shadow-lg shadow-blue-500/50">
+            <a
+              href="https://github.com/zahid0033?tab=repositories"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 scale-95 hover:scale-100 duration-500"
+            >
+              <AiFillGithub size={"2rem"} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/zahid-hossain-dev/"
+              target="blank"
+            >
+              <AiFillLinkedin size={"2rem"} />
+            </a>
+          </div>
+        </div>
       </div>
       <Footer />
     </>

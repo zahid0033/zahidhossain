@@ -4,57 +4,7 @@ function Gallery() {
   return (
     <section className="w-4/5 mx-auto overflow-hidden text-gray-700 py-10 mb-8">
       <div className="container py-2 mx-auto ">
-        <div className="grid grid-cols-3">
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png"
-            />
-          </div>
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png"
-            />
-          </div>
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png"
-            />
-          </div>
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png"
-            />
-          </div>
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
-            />
-          </div>
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png"
-            />
-          </div>
-          <div className="">
-            <img
-              alt="gallery"
-              className="block object-cover object-center w-full h-full rounded-lg"
-              src="https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png"
-            />
-          </div>
-        </div>
+        <div className="grid"></div>
 
         <div className="flex flex-wrap -m-1 md:-m-2">
           <div className="flex flex-wrap w-1/2">

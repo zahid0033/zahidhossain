@@ -1,7 +1,6 @@
 import React from "react";
 
 function JobHistory({ offices }) {
-  console.log(offices);
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
       <div className="grid max-w-2xl mx-auto">
@@ -18,13 +17,18 @@ function JobHistory({ offices }) {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                {offices[0].title.toUpperCase()}
+                Echologyx LTD
               </p>
-              <p className=" text-gray-100 italic">(2022-Present)</p>
               <p className="text-md text-lime-300 tracking-wider">
-                CRO Developer
+                {" "}
+                CRO Developer{" "}
               </p>
-              <p className="text-sm text-orange-50">{offices[0].description}</p>
+              <p className="text-sm text-orange-50">
+                Working as a software engineer for several years. Here I am done
+                more than 800 A/B Test projects. Which are most renowned brands
+                in the world. Besides worked on the in-hours HRM software
+                project as a frontend developer
+              </p>
               <div className="jobSkills mt-2">
                 <b className="text-orange-50">SKILLS :</b>
                 <div className="skills flex flex-wrap">
@@ -51,22 +55,16 @@ function JobHistory({ offices }) {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                {offices[1].title.toUpperCase()}
+                Kernel Technologies
               </p>
               <p className="text-md text-lime-300 tracking-wider">
                 Web Developer
               </p>
-              <p className="text-sm text-orange-50">{offices[1].description}</p>
-              <div className="jobSkills mt-2">
-                <b className="text-orange-50">SKILLS :</b>
-                <div className="skills flex flex-wrap">
-                  {offices[1].skills.map((skill) => (
-                    <span className="text-orange-50 border-2 my-1 mx-2 py-1 px-3 rounded-2xl">
-                      {skill.trim()}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              <p className="text-sm text-orange-50">
+                Worked as an frontend developer. Developed multiple e-commerce
+                and in-house softwares. Such as MediBee, CourseBee, KrishiBee,
+                Horticulture
+              </p>
             </div>
           </div>
         </div>
@@ -83,21 +81,16 @@ function JobHistory({ offices }) {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                {offices[2].title.toUpperCase()}
+                SELCOLBD LTD
               </p>
-              <p className="text-md text-lime-300 tracking-wider">Internship</p>
-              <p className="text-sm text-orange-50">{offices[2].description}</p>
-
-              <div className="jobSkills mt-2">
-                <b className="text-orange-50">SKILLS :</b>
-                <div className="skills flex flex-wrap">
-                  {offices[2].skills.map((skill) => (
-                    <span className="text-orange-50 border-2 my-1 mx-2 py-1 px-3 rounded-2xl">
-                      {skill.trim()}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              <p className="text-md text-lime-300 tracking-wider">
+                {" "}
+                Internship{" "}
+              </p>
+              <p className="text-sm text-orange-50">
+                I did intern with the responsibility of making dynamic website
+                with laravel and basic frontend languages.
+              </p>
             </div>
           </div>
         </div>

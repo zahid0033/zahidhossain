@@ -2,7 +2,7 @@ import React from "react";
 import Progressbar from "../components/progressbar";
 import Title from "../components/title";
 import Gallery from "../components/gallery.js";
-import Footer from "../components/Footer.jsx";
+import Footer from "../components/footer";
 import JobHistory from "../components/jobHistory";
 import { getAllskills, getCroTools, getOffices } from "../data/data.js";
 import NavBar from "../components/NavBar.jsx";

@@ -113,7 +113,16 @@ const offices = [
     logo: "https://i.ibb.co/Cw4cFTr/download.png",
     description:
       "I did intern with the responsibility of making dynamic website with laravel and basic frontend languages.",
-    skills: ["Javascript", "HTML", "CSS", "SCSS ", "Laravel"],
+    skills: [
+      "React JS",
+      "Vanilla JS",
+      "HTML",
+      "CSS",
+      "SCSS ",
+      "ABTasty",
+      "Dynamic yield",
+      "Qubit",
+    ],
   },
 ];
 

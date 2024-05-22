@@ -84,14 +84,12 @@ const croTools = [
 
 const offices = [
   {
-    title: "Echologyx LTD",
-    logo: "https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png",
+    title: "Setcol",
+    logo: "https://i.ibb.co/Cw4cFTr/download.png",
     description:
-      "Working as a software engineer for several years. Here I am done more than 800 A/B Test projects. Which are most renowned brands in the world. Besides worked on the in-hours HRM software project as a frontend developer",
+      "I did intern with the responsibility of making dynamic website with laravel and basic frontend languages.",
     skills: [
       "React JS",
-      "Next JS",
-      "TypeScript",
       "Vanilla JS",
       "HTML",
       "CSS",
@@ -102,18 +100,36 @@ const offices = [
     ],
   },
   {
-    title: "Kernel TECHNOLOGIES",
+    title: "Kernel",
     logo: "https://i.ibb.co/682Pkby/1640089257430-removebg-preview.png",
     description:
       "Worked as an frontend developer. Developed multiple e-commerce and in-house softwares. Such as MediBee, CourseBee, KrishiBee, Horticulture",
-    skills: ["React JS", "Next JS", "HTML", "CSS", "SCSS"],
+    skills: [
+      "React JS",
+      "Vanilla JS",
+      "HTML",
+      "CSS",
+      "SCSS ",
+      "ABTasty",
+      "Dynamic yield",
+      "Qubit",
+    ],
   },
   {
-    title: "Setcol LTD",
-    logo: "https://i.ibb.co/Cw4cFTr/download.png",
+    title: "Echologyx",
+    logo: "https://i.ibb.co/SJ0mQ3y/Echo-Logyx-logo-RGB-white-1-6.png",
     description:
-      "I did intern with the responsibility of making dynamic website with laravel and basic frontend languages.",
-    skills: ["Javascript", "HTML", "CSS", "SCSS ", "Laravel"],
+      "Working as a software engineer for several years. Here I am done more than 800 A/B Test projects. Which are most renowned brands in the world. Besides worked on the in-hours HRM software project as a frontend developer",
+    skills: [
+      "React JS",
+      "Vanilla JS",
+      "HTML",
+      "CSS",
+      "SCSS ",
+      "ABTasty",
+      "Dynamic yield",
+      "Qubit",
+    ],
   },
 ];
 

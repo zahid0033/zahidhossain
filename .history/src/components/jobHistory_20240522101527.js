@@ -18,11 +18,11 @@ function JobHistory({ offices }) {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                {offices[0].title.toUpperCase()}
+                Echologyx LTD
               </p>
-              <p className=" text-gray-100 italic">(2022-Present)</p>
               <p className="text-md text-lime-300 tracking-wider">
-                CRO Developer
+                {" "}
+                CRO Developer{" "}
               </p>
               <p className="text-sm text-orange-50">{offices[0].description}</p>
               <div className="jobSkills mt-2">
@@ -51,12 +51,16 @@ function JobHistory({ offices }) {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                {offices[1].title.toUpperCase()}
+                Kernel Technologies
               </p>
               <p className="text-md text-lime-300 tracking-wider">
                 Web Developer
               </p>
-              <p className="text-sm text-orange-50">{offices[1].description}</p>
+              <p className="text-sm text-orange-50">
+                Worked as an frontend developer. Developed multiple e-commerce
+                and in-house softwares. Such as MediBee, CourseBee, KrishiBee,
+                Horticulture
+              </p>
               <div className="jobSkills mt-2">
                 <b className="text-orange-50">SKILLS :</b>
                 <div className="skills flex flex-wrap">
@@ -83,10 +87,16 @@ function JobHistory({ offices }) {
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-9">
             <div>
               <p className="text-2xl text-orange-300 font-semibold uppercase">
-                {offices[2].title.toUpperCase()}
+                SELCOLBD LTD
               </p>
-              <p className="text-md text-lime-300 tracking-wider">Internship</p>
-              <p className="text-sm text-orange-50">{offices[2].description}</p>
+              <p className="text-md text-lime-300 tracking-wider">
+                {" "}
+                Internship{" "}
+              </p>
+              <p className="text-sm text-orange-50">
+                I did intern with the responsibility of making dynamic website
+                with laravel and basic frontend languages.
+              </p>
 
               <div className="jobSkills mt-2">
                 <b className="text-orange-50">SKILLS :</b>

@@ -20,7 +20,7 @@ function JobHistory({ offices }) {
               <p className="text-2xl text-orange-300 font-semibold uppercase">
                 {offices[0].title.toUpperCase()}
               </p>
-              <p className=" text-gray-100 italic">(2022-Present)</p>
+              <p className=" text-gray-100">(2022-Present)</p>
               <p className="text-md text-lime-300 tracking-wider">
                 CRO Developer
               </p>

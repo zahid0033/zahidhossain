@@ -106,14 +106,23 @@ const offices = [
     logo: "https://i.ibb.co/682Pkby/1640089257430-removebg-preview.png",
     description:
       "Worked as an frontend developer. Developed multiple e-commerce and in-house softwares. Such as MediBee, CourseBee, KrishiBee, Horticulture",
-    skills: ["React JS", "Next JS", "HTML", "CSS", "SCSS"],
+    skills: ["React JS", "Vanilla JS", "HTML", "CSS", "SCSS"],
   },
   {
     title: "Setcol LTD",
     logo: "https://i.ibb.co/Cw4cFTr/download.png",
     description:
       "I did intern with the responsibility of making dynamic website with laravel and basic frontend languages.",
-    skills: ["Javascript", "HTML", "CSS", "SCSS ", "Laravel"],
+    skills: [
+      "React JS",
+      "Vanilla JS",
+      "HTML",
+      "CSS",
+      "SCSS ",
+      "ABTasty",
+      "Dynamic yield",
+      "Qubit",
+    ],
   },
 ];
 
