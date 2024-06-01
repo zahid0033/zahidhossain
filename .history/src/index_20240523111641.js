@@ -16,7 +16,7 @@ root.render(
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/home" exact element={<Home />} />
-          <Route path="/snippets" exact element={<Snippet />} />
+          <Route path="/snippets" exact element={<AbTestSnippet />} />
           <Route path="/leetcode" exact element={<LeetCode />} />
         </Routes>
       </ScrollToTop>

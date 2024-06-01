@@ -131,7 +131,7 @@ const gallery = [
     alt: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcx9AxpwFPObinCPkJtBl8pRqAIKYjMSlahUIFLRPJjqjOejWs6im8En_AVQf_TIAWRgTB8ejvX1ICfXkbLECvCUE86xNjL4c=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/StYMh08/Screenshot-2022-08-22-215920.png",
     alt: "",
   },
   {

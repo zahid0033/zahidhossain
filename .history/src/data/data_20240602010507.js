@@ -127,11 +127,11 @@ const gallery = [
     alt: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZquoLD8qAwmyu7aAJgcQbPe5-tazHCHMg2T_XxwBxtt6s8h0HH2nEjFOOPBtY218K9MJViRc3pSJkim4BeKL61IBGc6sDbVLs=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/hVDwt4f/Screenshot-2022-08-23-134723.png",
     alt: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcx9AxpwFPObinCPkJtBl8pRqAIKYjMSlahUIFLRPJjqjOejWs6im8En_AVQf_TIAWRgTB8ejvX1ICfXkbLECvCUE86xNjL4c=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/StYMh08/Screenshot-2022-08-22-215920.png",
     alt: "",
   },
   {

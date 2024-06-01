@@ -27,9 +27,10 @@ body {
   width: 0%;
   height: 100%;
   right: 0;
-  transition: 0.5s ease-in-out;
+  transition: 1s ease-in-out;
 }
-.gallery > div:hover::before{
+.gallery > div:hover img{
+  margin: 2em;
   width: 50%;
 }
 /* @keyframes croTools {

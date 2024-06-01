@@ -4,7 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Snippet from "./pages/Snippet";
+import AbTestSnippet from "./pages/snippet";
 import ScrollToTop from "./components/ScrollToTop";
 import LeetCode from "./pages/leetCode";
 
@@ -16,7 +16,7 @@ root.render(
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/home" exact element={<Home />} />
-          <Route path="/snippets" exact element={<Snippet />} />
+          <Route path="/snippets" exact element={<AbTestSnippet />} />
           <Route path="/leetcode" exact element={<LeetCode />} />
         </Routes>
       </ScrollToTop>

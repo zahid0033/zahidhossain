@@ -1,0 +1,26 @@
+import { getGallery } from "../data/data";
+
+function Gallery() {
+  let images = getGallery();
+  return (
+    <section className="w-4/5 mx-auto overflow-hidden text-gray-700 py-10 mb-8">
+      <div className="container py-2 mx-auto ">
+        <div className="grid grid-cols-3 gallery">
+          {
+            images.map((image, i) => (
+              <div className="m-2">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-contain w-full h-full rounded-lg"
+                  src={image.url}
+                />
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Gallery;

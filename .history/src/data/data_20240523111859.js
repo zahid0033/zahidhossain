@@ -119,27 +119,31 @@ const offices = [
 
 const gallery = [
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYuXi0FpbyliHqP-JF9-OFn8xbnOPJfP8gp5efbUKpipYc_z7d8-pXf8gq2Fn4elLsxN5Pz0hV0XwUSBA1e-qeLOOAex3kpxg=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/T0TzzRM/Screenshot-2022-08-23-134934.png",
     alt: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihazCOgjdgljlUO7PzOk8KFOPhsqWS6KtaaeU9C5WlV3Ocgc7Z8K-YlEGkgiTks-XGFvY0yMVvrC07XbIcDX7gC9yRM1KvjB444=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/Tv9kNJW/Screenshot-2022-08-26-010320.png",
     alt: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZquoLD8qAwmyu7aAJgcQbPe5-tazHCHMg2T_XxwBxtt6s8h0HH2nEjFOOPBtY218K9MJViRc3pSJkim4BeKL61IBGc6sDbVLs=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/hVDwt4f/Screenshot-2022-08-23-134723.png",
     alt: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcx9AxpwFPObinCPkJtBl8pRqAIKYjMSlahUIFLRPJjqjOejWs6im8En_AVQf_TIAWRgTB8ejvX1ICfXkbLECvCUE86xNjL4c=w2944-h2394-rw-v1",
+    url: "https://i.ibb.co/StYMh08/Screenshot-2022-08-22-215920.png",
     alt: "",
   },
   {
-    url: "https://setcolbd.com/static/media/dream-world-corporation.dfe2580f.webp",
+    url: "",
     alt: "",
   },
   {
-    url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp",
+    url: "",
+    alt: "",
+  },
+  {
+    url: "",
     alt: "",
   },
 ];
@@ -156,8 +160,4 @@ function getOffices() {
   return offices;
 }
 
-function getGallery() {
-  return gallery;
-}
-
-export { getAllskills, getCroTools, getOffices, getGallery };
+export { getAllskills, getCroTools, getOffices };

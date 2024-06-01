@@ -17,10 +17,10 @@ body {
 .croTool img:nth-child(odd){
   transform: rotateZ(10deg);
 }
-.gallery > div{
+.gallery > div img{
   position: relative;
 }
-.gallery > div::before{
+.gallery > div img::before{
   content: "";
   position: absolute;
   background: #45484ba3;

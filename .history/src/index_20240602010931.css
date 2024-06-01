@@ -20,7 +20,7 @@ body {
 .gallery > div{
   position: relative;
 }
-.gallery > div::before{
+.gallery > div img::before{
   content: "";
   position: absolute;
   background: #45484ba3;

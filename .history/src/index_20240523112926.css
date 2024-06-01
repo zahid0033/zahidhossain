@@ -24,13 +24,9 @@ body {
   content: "";
   position: absolute;
   background: #45484ba3;
-  width: 0%;
+  width: 50%;
   height: 100%;
   right: 0;
-  transition: 0.5s ease-in-out;
-}
-.gallery > div:hover::before{
-  width: 50%;
 }
 /* @keyframes croTools {
   0% {
