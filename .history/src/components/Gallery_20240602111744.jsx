@@ -10,16 +10,12 @@ function Gallery() {
   let [selectedGallery,setSelectedGallery] = useState(null)
 
   function handleModal (gallery){
+    <GalleryModal gallery={gallery}/>
     setModalOpen(!modalOpen);
-    setSelectedGallery(gallery)
     console.log(modalOpen,gallery, "OPen");
-  }
-  function onCancel() {    
-    setModalOpen(false);
   }
   return (
     <>
-      {modalOpen && <GalleryModal gallery={selectedGallery} onCancel={onCancel} />}
       <section className="w-4/5 mx-auto overflow-hidden text-gray-700 py-10 mb-8">
         <div className="container py-2 mx-auto ">
           <div className="grid lg:grid-cols-3 md:grid-cols-1 gallery" >

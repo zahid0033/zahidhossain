@@ -1,0 +1,12 @@
+export default function GalleryModal({ gallery}){
+  return (
+    <div className="absolute top-2/4 left-2/4 w-4/5 h-4/5 -translate-x-1/2 translate-y-2/4 grid grid-cols-4 galleryModal">
+      <div className="col-span-3">
+        <img src={gallery.url} alt="" className="w-full" />
+      </div>
+      <div className="">
+        {gallery.description}
+      </div>
+    </div>
+  )
+}

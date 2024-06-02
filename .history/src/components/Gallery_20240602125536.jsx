@@ -14,7 +14,8 @@ function Gallery() {
     setSelectedGallery(gallery)
     console.log(modalOpen,gallery, "OPen");
   }
-  function onCancel() {    
+  function onCancel() {
+    
     setModalOpen(false);
   }
   return (

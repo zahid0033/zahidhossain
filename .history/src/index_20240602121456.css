@@ -26,34 +26,12 @@ body {
   transition: 0.5s ease-in-out;
 }
 .galleryModal{
-  position: fixed;
-  width: 90%;
-  height: 80%;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border: 2px solid rgb(255, 255, 255);
-  background: #2e323c;
-  padding: 1em;
-  z-index: 99;
-}
-.galleryModal>div:nth-child(1){
-  min-height: 100%;
-}
-.galleryModal > div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transform: translate(-50%,50%);
+  border: 2px solid green;
 }
 .galleryModal img{
-  height: 100%;
-}
-.backdrop{
-  position: fixed;
   width: 100%;
-  background: #51505078;
-  height: 100%;
-  top: 0;
-  z-index: 99;
-  left: 0;
 }

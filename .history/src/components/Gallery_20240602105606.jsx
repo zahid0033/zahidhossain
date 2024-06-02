@@ -1,31 +1,24 @@
 import { useState } from "react";
 import { getGallery } from "../data/data";
-// import GalleryModal from "./galleryModal";
 import GalleryModal from "./GalleryModal";
 
 
 function Gallery() {
   let images = getGallery();
   let [modalOpen, setModalOpen] = useState(false);
-  let [selectedGallery,setSelectedGallery] = useState(null)
 
-  function handleModal (gallery){
-    setModalOpen(!modalOpen);
-    setSelectedGallery(gallery)
-    console.log(modalOpen,gallery, "OPen");
-  }
-  function onCancel() {    
-    setModalOpen(false);
+  function handleModal (){
+    setModalOpen(!modalOpen)
   }
   return (
     <>
-      {modalOpen && <GalleryModal gallery={selectedGallery} onCancel={onCancel} />}
+      {modalOpen && <GalleryModal/>}
       <section className="w-4/5 mx-auto overflow-hidden text-gray-700 py-10 mb-8">
         <div className="container py-2 mx-auto ">
           <div className="grid lg:grid-cols-3 md:grid-cols-1 gallery" >
             {
               images.map((image, i) => (
-                <div className="m-2 overflow-hidden cursor-pointer" onClick={() =>handleModal(image)}>
+                <div className="m-2 overflow-hidden cursor-pointer" onClick={handleModal}>
                   <img
                     alt="gallery"
                     className="block object-contain object-center w-full h-full rounded-lg"

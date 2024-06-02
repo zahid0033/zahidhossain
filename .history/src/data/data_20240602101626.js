@@ -131,7 +131,7 @@ const gallery = [
       "In original It's just complete a looks products. In variation : Its with a model",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb53yKLCZeQZ_tod5Dsjqe4oVZI6iNk4tEkdBJqCodIWkHxt5y9G8HZAMAz4BDI-CaPE0kngyfYwivmOVju4oLNOR4xcpLAEuw=w2066-h2394-rw-v1",
+    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZquoLD8qAwmyu7aAJgcQbPe5-tazHCHMg2T_XxwBxtt6s8h0HH2nEjFOOPBtY218K9MJViRc3pSJkim4BeKL61IBGc6sDbVLs=w2944-h2394-rw-v1",
     alt: "",
     description:
       "In Product List page we can see the products only. In variation: Prodcts with their sizes available",
@@ -139,20 +139,15 @@ const gallery = [
   {
     url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcx9AxpwFPObinCPkJtBl8pRqAIKYjMSlahUIFLRPJjqjOejWs6im8En_AVQf_TIAWRgTB8ejvX1ICfXkbLECvCUE86xNjL4c=w2944-h2394-rw-v1",
     alt: "",
-    description:
-      "Control: PLP with regular filter. Variation: Easily accesible filters on the left side",
+    description: "",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZCbl5tmxZ4EUuzK9InMmGY_v_A42-0lRqKkwThIhvelmvmV21aUvwGbzXPI7v_9_RmY17Dtomlo9Jxd4T7EH06aw3bb6sXgw=w2066-h2394-rw-v1",
+    url: "https://setcolbd.com/static/media/dream-world-corporation.dfe2580f.webp",
     alt: "",
-    description:
-      "It is a search bar revamp. Where in control the search bar was showing regular suggestions. But in variation I showed up best selling products",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYbjSksbAdCVkElGH69kAXkzy53y3kdVu0X61O6kH8v5Hzpt_W1gv1bBfgt1rrirEyQ0JZl8Dy-WXd8ZjZZ5vIX3ZPQlKR9VXw=w2066-h2394-rw-v1",
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp",
     alt: "",
-    description:
-      "Here in Product List Page. There were regular filter. In variation I made a filter with every type of perfume with a picture of that category. Which boosts the conversion rate",
   },
 ];
 

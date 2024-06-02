@@ -27,8 +27,8 @@ body {
 }
 .galleryModal{
   position: fixed;
-  width: 90%;
-  height: 80%;
+  width: 800px;
+  height: 600px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -37,10 +37,8 @@ body {
   padding: 1em;
   z-index: 99;
 }
-.galleryModal>div:nth-child(1){
-  min-height: 100%;
-}
 .galleryModal > div{
+  height: 560px;
   display: flex;
   align-items: center;
   justify-content: center;

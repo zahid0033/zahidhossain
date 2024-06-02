@@ -131,7 +131,7 @@ const gallery = [
       "In original It's just complete a looks products. In variation : Its with a model",
   },
   {
-    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb53yKLCZeQZ_tod5Dsjqe4oVZI6iNk4tEkdBJqCodIWkHxt5y9G8HZAMAz4BDI-CaPE0kngyfYwivmOVju4oLNOR4xcpLAEuw=w2066-h2394-rw-v1",
+    url: "https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZquoLD8qAwmyu7aAJgcQbPe5-tazHCHMg2T_XxwBxtt6s8h0HH2nEjFOOPBtY218K9MJViRc3pSJkim4BeKL61IBGc6sDbVLs=w2944-h2394-rw-v1",
     alt: "",
     description:
       "In Product List page we can see the products only. In variation: Prodcts with their sizes available",

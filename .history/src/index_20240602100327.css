@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background: #2a2c39; */
+  background: rgb(15 23 42/71);
+}
+.croTool img {
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(229, 235, 168, 0.7));
+  filter: drop-shadow(1px 1px 1px rgba(229, 235, 168, 0.7));
+  max-width: 100%;
+  transform: rotateZ(-10deg);
+  margin: auto ;
+  margin-bottom: 3em;
+}
+.croTool img:nth-child(odd){
+  transform: rotateZ(10deg);
+}
+.gallery > div{
+  position: relative;
+}
+
+.gallery > div:hover .overlay{
+  width: 50%;
+  transition: ease-in-out;
+}
+/* @keyframes croTools {
+  0% {
+    transform: rotateY(30deg);
+  }
+  100% {
+    transform: rotateY(-30deg);
+  }
+} */
+/* @keyframes croTools {
+  100% {
+    transform: rotateZ(0deg);
+  }
+} */
