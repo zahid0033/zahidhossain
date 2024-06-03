@@ -19,11 +19,10 @@ body {
 .gallery > div{
   position: relative;
 }
-.overlay{
+
+.gallery > div:hover .overlay{
   font-style: italic;
   letter-spacing: 2px;
-}
-.gallery > div:hover .overlay{
   right: 0;
   transition: 0.5s ease-in-out;
 }

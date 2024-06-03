@@ -19,11 +19,10 @@ body {
 .gallery > div{
   position: relative;
 }
-.overlay{
-  font-style: italic;
-  letter-spacing: 2px;
-}
+
 .gallery > div:hover .overlay{
+      font-style: italic;
+        letter-spacing: 2px;
   right: 0;
   transition: 0.5s ease-in-out;
 }
@@ -46,8 +45,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-style: italic;
-  letter-spacing: 2px;
 }
 .galleryModal img{
   height: 100%;

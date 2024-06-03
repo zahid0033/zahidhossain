@@ -19,17 +19,14 @@ body {
 .gallery > div{
   position: relative;
 }
-.overlay{
-  font-style: italic;
-  letter-spacing: 2px;
-}
+
 .gallery > div:hover .overlay{
   right: 0;
   transition: 0.5s ease-in-out;
 }
 .galleryModal{
   position: fixed;
-  /* width: 60%; */
+  width: 60%;
   height: 80%;
   top: 50%;
   left: 50%;
@@ -46,8 +43,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-style: italic;
-  letter-spacing: 2px;
 }
 .galleryModal img{
   height: 100%;
@@ -55,7 +50,7 @@ body {
 .backdrop{
   position: fixed;
   width: 100%;
-  background: #505987cf;
+  background: #51505078;
   height: 100%;
   top: 0;
   z-index: 99;
