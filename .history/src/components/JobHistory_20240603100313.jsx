@@ -59,8 +59,8 @@ function JobHistory({ offices }) {
               <div className="jobSkills mt-2">
                 <b className="text-orange-50">SKILLS :</b>
                 <div className="skills flex flex-wrap">
-                  {offices[1].skills.map((skill,i) => (
-                    <span className="text-orange-50 border-2 my-1 mx-2 py-1 px-3 rounded-2xl" key={i}>
+                  {offices[1].skills.map((skill) => (
+                    <span className="text-orange-50 border-2 my-1 mx-2 py-1 px-3 rounded-2xl">
                       {skill.trim()}
                     </span>
                   ))}
@@ -90,8 +90,8 @@ function JobHistory({ offices }) {
               <div className="jobSkills mt-2">
                 <b className="text-orange-50">SKILLS :</b>
                 <div className="skills flex flex-wrap">
-                  {offices[2].skills.map((skill,i) => (
-                    <span className="text-orange-50 border-2 my-1 mx-2 py-1 px-3 rounded-2xl" key={i}>
+                  {offices[2].skills.map((skill) => (
+                    <span className="text-orange-50 border-2 my-1 mx-2 py-1 px-3 rounded-2xl">
                       {skill.trim()}
                     </span>
                   ))}

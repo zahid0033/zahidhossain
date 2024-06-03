@@ -30,7 +30,7 @@ const Home = () => {
               className="transition duration-0 hover:duration-150 ease-in-out mb-4"
               src={office.logo}
               alt={office.title}
-              key={i}
+              id={i}
             />
           ))}
         </div>
@@ -54,13 +54,12 @@ const Home = () => {
 
         <Title text="Expertise in CRO Tool" />
         <div className="sm:w-5/5 lg:w-4/5 lg:mx-auto grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-center croTool py-10">
-          {croTools.map((tool,i) => (
+          {croTools.map((tool) => (
             <img
               className={`transition duration-0 hover:duration-150 ease-in-out mb-4 ${tool.title.toLowerCase()}`}
               src={tool.logo}
               alt={tool.title}
               style={{ width: tool.styleWidth }}
-              key={i}
             />
           ))}
         </div>

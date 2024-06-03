@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { getGallery } from "../data/data";
+// import GalleryModal from "./galleryModal";
 import GalleryModal from "./GalleryModal";
 
 
