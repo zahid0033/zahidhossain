@@ -1,4 +1,4 @@
-export default function heroBanner() {
+export default function HeroBanner() {
   return (
     <>
       <div className="text-gray-500 px-10 grid sm:grid-cols-1 lg:grid-cols-2">
