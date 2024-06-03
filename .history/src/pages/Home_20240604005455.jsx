@@ -8,7 +8,6 @@ import { getAllskills, getCroTools, getOffices } from "../data/data.js";
 import NavBar from "../components/NavBar.jsx";
 import HeroBanner from "../components/heroBanner.jsx";
 import FloatingContact from "../components/FloatingContact.jsx";
-import Advertise from "../components/advertise.jsx";
 
 const Home = () => {
   const skills = getAllskills();
@@ -28,7 +27,7 @@ const Home = () => {
 
           {offices.map((office, i) => (
             <img
-              className="transition duration-0 hover:duration-150 ease-in-out mb-4 mx-auto"
+              className="transition duration-0 hover:duration-150 ease-in-out mb-4"
               src={office.logo}
               alt={office.title}
               key={i}
@@ -51,10 +50,10 @@ const Home = () => {
         </div> */}
 
         <Title text="Work History" />
-        <JobHistory offices={offices} />
+        <JobHistory offices={offices} id="job" />
 
-        <Title text="Expertise in CRO Tool"/>
-        <div id="cro" className="sm:w-5/5 lg:w-4/5 lg:mx-auto grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-center croTool py-10">
+        <Title text="Expertise in CRO Tool" />
+        <div className="sm:w-5/5 lg:w-4/5 lg:mx-auto grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-center croTool py-10">
           {croTools.map((tool,i) => (
             <img
               className={`transition duration-0 hover:duration-150 ease-in-out mb-4 ${tool.title.toLowerCase()}`}
@@ -69,7 +68,6 @@ const Home = () => {
         <Gallery />
         <FloatingContact />
       </div>
-        <Advertise />
       <Footer />
     </>
   );

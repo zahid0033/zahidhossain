@@ -67,9 +67,9 @@ const Home = () => {
         </div>
         <Title text="Work Samples" />
         <Gallery />
+        <Advertise />
         <FloatingContact />
       </div>
-        <Advertise />
       <Footer />
     </>
   );

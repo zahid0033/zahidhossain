@@ -8,7 +8,6 @@ import { getAllskills, getCroTools, getOffices } from "../data/data.js";
 import NavBar from "../components/NavBar.jsx";
 import HeroBanner from "../components/heroBanner.jsx";
 import FloatingContact from "../components/FloatingContact.jsx";
-import Advertise from "../components/advertise.jsx";
 
 const Home = () => {
   const skills = getAllskills();
@@ -69,7 +68,6 @@ const Home = () => {
         <Gallery />
         <FloatingContact />
       </div>
-        <Advertise />
       <Footer />
     </>
   );

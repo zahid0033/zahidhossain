@@ -16,7 +16,7 @@ export default function NavBar() {
         className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
         href="#job"
       >
-        Job
+        JOB
       </a>
       <a
         className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
@@ -26,7 +26,7 @@ export default function NavBar() {
       </a>
       <a
         className="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500"
-        href="#sample"
+        href="#a"
       >
         Work-Sample
       </a>

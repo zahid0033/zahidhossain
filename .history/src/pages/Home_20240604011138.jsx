@@ -8,7 +8,6 @@ import { getAllskills, getCroTools, getOffices } from "../data/data.js";
 import NavBar from "../components/NavBar.jsx";
 import HeroBanner from "../components/heroBanner.jsx";
 import FloatingContact from "../components/FloatingContact.jsx";
-import Advertise from "../components/advertise.jsx";
 
 const Home = () => {
   const skills = getAllskills();
@@ -19,7 +18,7 @@ const Home = () => {
       <NavBar />
       <HeroBanner />
       <div className="mx-10">
-        <div className="sm:w-5/5 lg:w-4/5 mx-auto grid grid-cols-4 gap-4 items-center">
+        <div className="sm:w-5/5 lg:w-4/5 mx-auto grid grid-cols-4 gap-4 items-center mx-auto">
           <img
             className="transition duration-0 hover:duration-150 ease-in-out mb-4"
             src=" "
@@ -28,7 +27,7 @@ const Home = () => {
 
           {offices.map((office, i) => (
             <img
-              className="transition duration-0 hover:duration-150 ease-in-out mb-4 mx-auto"
+              className="transition duration-0 hover:duration-150 ease-in-out mb-4"
               src={office.logo}
               alt={office.title}
               key={i}
@@ -69,7 +68,6 @@ const Home = () => {
         <Gallery />
         <FloatingContact />
       </div>
-        <Advertise />
       <Footer />
     </>
   );

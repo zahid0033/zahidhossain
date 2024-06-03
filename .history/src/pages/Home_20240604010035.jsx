@@ -8,7 +8,6 @@ import { getAllskills, getCroTools, getOffices } from "../data/data.js";
 import NavBar from "../components/NavBar.jsx";
 import HeroBanner from "../components/heroBanner.jsx";
 import FloatingContact from "../components/FloatingContact.jsx";
-import Advertise from "../components/advertise.jsx";
 
 const Home = () => {
   const skills = getAllskills();
@@ -28,7 +27,7 @@ const Home = () => {
 
           {offices.map((office, i) => (
             <img
-              className="transition duration-0 hover:duration-150 ease-in-out mb-4 mx-auto"
+              className="transition duration-0 hover:duration-150 ease-in-out mb-4"
               src={office.logo}
               alt={office.title}
               key={i}
@@ -69,7 +68,6 @@ const Home = () => {
         <Gallery />
         <FloatingContact />
       </div>
-        <Advertise />
       <Footer />
     </>
   );

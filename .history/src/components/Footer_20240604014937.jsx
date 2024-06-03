@@ -33,8 +33,8 @@ function Footer() {
             </a>
 
             <a
-              class="hover:text-opacity-75"
-              href="https://www.linkedin.com/in/zahid-hossain-dev/"
+              class="text-pink-600 hover:text-opacity-75"
+              href="/dribbble"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Dribbble"
