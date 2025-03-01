@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -12,24 +12,24 @@ body {
   filter: drop-shadow(1px 1px 1px rgba(229, 235, 168, 0.7));
   max-width: 100%;
   transform: rotateZ(-10deg);
-  margin: auto ;
+  margin: auto;
   margin-bottom: 3em;
 }
-.croTool img:nth-child(odd){
+.croTool img:nth-child(odd) {
   transform: rotateZ(10deg);
 }
-.gallery > div{
+.gallery > div {
   position: relative;
 }
-.overlay{
+.overlay {
   font-style: italic;
   letter-spacing: 2px;
 }
-.gallery > div:hover .overlay{
+.gallery > div:hover .overlay {
   right: 0;
   transition: 0.5s ease-in-out;
 }
-.galleryModal{
+.galleryModal {
   position: fixed;
   /* width: 60%; */
   height: 80%;
@@ -41,20 +41,20 @@ body {
   padding: 1em;
   z-index: 99;
 }
-.galleryModal>div:nth-child(1){
+.galleryModal > div:nth-child(1) {
   min-height: 100%;
 }
-.galleryModal > div{
+.galleryModal > div {
   display: flex;
   align-items: center;
   justify-content: center;
   font-style: italic;
   letter-spacing: 2px;
 }
-.galleryModal img{
+.galleryModal img {
   height: 100%;
 }
-.backdrop{
+.backdrop {
   position: fixed;
   width: 100%;
   background: #505987cf;
@@ -63,7 +63,8 @@ body {
   z-index: 99;
   left: 0;
 }
-.advertise{
-  background: url("https://i.ibb.co/ky687Qn/abstract-decorative-blue-wave-banner-design-1055-9614.jpg");
-  background-size: cover;
+.advertise h1,
+.advertise h2 {
+  /* background: url("https://i.ibb.co/ky687Qn/abstract-decorative-blue-wave-banner-design-1055-9614.jpg"); */
+  color: #fff;
 }
