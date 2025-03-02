@@ -119,37 +119,37 @@ const offices = [
 
 const gallery = [
   {
-    url: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYuXi0FpbyliHqP-JF9-OFn8xbnOPJfP8gp5efbUKpipYc_z7d8-pXf8gq2Fn4elLsxN5Pz0hV0XwUSBA1e-qeLOOAex3kpxg=w2944-h2394-rw-v1',
+    url: 'https://raw.githubusercontent.com/zahid0033/zahidhossain/refs/heads/main/work%20samples/abtest/HublotPDPGallery.png',
     alt: 'Here I have brought other related images of watch. And showed beside the watch. It boosts the conversion at a huge rate',
     description:
       'Here I have brought other related images of watch. And showed beside the watch. It boosts the conversion at a huge rate',
   },
   {
-    url: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihazCOgjdgljlUO7PzOk8KFOPhsqWS6KtaaeU9C5WlV3Ocgc7Z8K-YlEGkgiTks-XGFvY0yMVvrC07XbIcDX7gC9yRM1KvjB444=w2944-h2394-rw-v1',
+    url: 'https://raw.githubusercontent.com/zahid0033/zahidhossain/refs/heads/main/work%20samples/abtest/StellaCompleLook.png',
     alt: '',
     description:
-      "In original It's just complete a looks products. In variation : Its with a model",
+      "In original It's just products to complete a look. In variation : Its with a model",
   },
   {
-    url: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihb53yKLCZeQZ_tod5Dsjqe4oVZI6iNk4tEkdBJqCodIWkHxt5y9G8HZAMAz4BDI-CaPE0kngyfYwivmOVju4oLNOR4xcpLAEuw=w2066-h2394-rw-v1',
+    url: 'https://raw.githubusercontent.com/zahid0033/zahidhossain/refs/heads/main/work%20samples/abtest/StellaPLPSizes.png',
     alt: '',
     description:
       'In Product List page we can see the products only. In variation: Prodcts with their sizes available',
   },
   {
-    url: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYcx9AxpwFPObinCPkJtBl8pRqAIKYjMSlahUIFLRPJjqjOejWs6im8En_AVQf_TIAWRgTB8ejvX1ICfXkbLECvCUE86xNjL4c=w2944-h2394-rw-v1',
+    url: 'https://raw.githubusercontent.com/zahid0033/zahidhossain/refs/heads/main/work%20samples/abtest/Hublot.png',
     alt: '',
     description:
       'Control: PLP with regular filter. Variation: Easily accesible filters on the left side',
   },
   {
-    url: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZCbl5tmxZ4EUuzK9InMmGY_v_A42-0lRqKkwThIhvelmvmV21aUvwGbzXPI7v_9_RmY17Dtomlo9Jxd4T7EH06aw3bb6sXgw=w2066-h2394-rw-v1',
+    url: 'https://raw.githubusercontent.com/zahid0033/zahidhossain/refs/heads/main/work%20samples/abtest/CelineRevampSearchBar.png',
     alt: '',
     description:
       'It is a search bar revamp. Where in control the search bar was showing regular suggestions. But in variation I showed up best selling products',
   },
   {
-    url: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYbjSksbAdCVkElGH69kAXkzy53y3kdVu0X61O6kH8v5Hzpt_W1gv1bBfgt1rrirEyQ0JZl8Dy-WXd8ZjZZ5vIX3ZPQlKR9VXw=w2066-h2394-rw-v1',
+    url: 'https://raw.githubusercontent.com/zahid0033/zahidhossain/refs/heads/main/work%20samples/abtest/francisFilter.png',
     alt: '',
     description:
       'Here in Product List Page. There were regular filter. In variation I made a filter with every type of perfume with a picture of that category. Which boosts the conversion rate',
