@@ -1,25 +1,7 @@
 const abTastySnippetsData = [
-    {
-        fileName: "(Tracking) Element View On Screen",
-        code:
-            `function addScrollEvent(el) {
-    document.addEventListener("scroll", function () {
-        var rect = el.getBoundingClientRect();
-        var elemTop = rect.top;
-        var elemBottom = rect.bottom;
-        isVisible = elemTop < window.innerHeight && elemBottom >= 0;
-        if (isVisible && !window.carouselViewed) {
-            dataLayer.push({ 'event': 'event1_abTest', 'abTestCategory': 'ABTests', 'abTestAction': 'h061021HPCocktailCarousel', 'abTestLabel': 'h061021_ViewBlockCocktail' });
-            window.carouselViewed = true;
-        }
-    })
-}
-`
-    },
-    {
-        fileName: "Basic Structure",
-        code:
-            `import './styles/index.scss'; // If you don't code on cli, delete this line
+  {
+    fileName: "Basic Structure",
+    code: `import './styles/index.scss'; // If you don't code on cli, delete this line
 /* DO NOT IMPORT ANYTHING */
 var structure = {
     init: function () {
@@ -50,33 +32,20 @@ var structure = {
         setTimeout(pollFor, 25);
     }
 })();
-`
-    },
-    {
-        fileName: "Click anywhere except a specific div",
-        code:
-            `document.addEventListener('click', function (e) {
+`,
+  },
+  {
+    fileName: "Click anywhere except a specific div",
+    code: `document.addEventListener('click', function (e) {
     var isClickInsideElement = document.querySelector('.box').contains(e.target);
     if (!isClickInsideElement) {
         // If the click is outside the box element, do something
     }
-});`
-    },
-    {
-        fileName: "Datalayer parameter",
-        code:
-            `window.dataLayer.push({
-    event: 'trackEvent',
-    eventCategory: 'ABtest',
-    eventAction: 'SearchBar',
-    eventLabel: 'search_CTA_click',
-    nonInteraction: false
-});`
-    },
-    {
-        fileName: "Detect IOS Device",
-        code:
-            `(function iOS() {
+});`,
+  },
+  {
+    fileName: "Detect IOS Device",
+    code: `(function iOS() {
     return [
         'iPad Simulator',
         'iPhone Simulator',
@@ -87,12 +56,11 @@ var structure = {
     ].includes(navigator.platform)
         // iPad on iOS 13 detection
         || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
-})();`
-    },
-    {
-        fileName: "Dynamic HTML Render",
-        code:
-            `var recommendationDiv = document.createElement('div');
+})();`,
+  },
+  {
+    fileName: "Dynamic HTML Render",
+    code: `var recommendationDiv = document.createElement('div');
 var template =  
     '<div class="dy_unit dy_smart_object_1177373 dyother dyMonitor" data-dy-exp-id="1177373" data-dy-var-id="1177373" data-dy-ver-data="1407118::0:1637005445257:21332:26242:1:0:0" data-dy-att-method="0" data-dy-att-seq="26242" data-adid="smart_object_1177373||433|||">'+
         '<style rel="stylesheet"></style><div class="recs_15508236">'+
@@ -118,12 +86,11 @@ var template =
         '</div>'+
     '</div>;'
     
-    recommendationDiv.innerHTML += template;`
-    },
-    {
-        fileName: "Is Element Visible In View Port",
-        code:
-            `function isElementVisibleInViewport(el) {
+    recommendationDiv.innerHTML += template;`,
+  },
+  {
+    fileName: "Is Element Visible In View Port",
+    code: `function isElementVisibleInViewport(el) {
     var top = el.getBoundingClientRect().top;
     var right = el.getBoundingClientRect().right;
     var bottom = el.getBoundingClientRect().bottom;
@@ -133,12 +100,11 @@ var template =
 
     return ((top > 0 && top < innerHeight) || (bottom > 0 && bottom < innerHeight)) &&
         ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
-}`
-    },
-    {
-        fileName: "KvdVegan Add To Cart",
-        code:
-            `var xhr = new XMLHttpRequest();
+}`,
+  },
+  {
+    fileName: "KvdVegan Add To Cart",
+    code: `var xhr = new XMLHttpRequest();
 xhr.open("POST", 'https://www.kvdveganbeauty.com/on/demandware.store/Sites-KVD-Site/default/Cart-AddProduct?format=ajax', true);
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.onreadystatechange = function () {
@@ -146,41 +112,74 @@ xhr.onreadystatechange = function () {
         app.minicart.refresh();
     }
 }
-xhr.send("availability=in-stock&Quantity=1&cartAction=add&pid=" + productCode);`
-    },
-    {
-        fileName: "language",
-        code:
-            `translation: {
-    en: "Buy it now and get it before Christmas!",
-    de: "Jetzt bestellen und vor Weihnachten erhalten!"
-},
-
-mainJS: function () {
-    var currentLang = structure.translation[structure.getLang()];
-    console.log("currentLang", currentLang);
-},
-
-getLang: function () {
-    var langCountry = document.querySelector('html').getAttribute('lang').split('_')[0];
-    var lang = langCountry.substring(0, langCountry.indexOf('-'));
-    return lang;
-}`
-    },
-    {
-        fileName: "Match Media",
-        code:
-            `let media = window.matchMedia('(max-width: 771px)');
+xhr.send("availability=in-stock&Quantity=1&cartAction=add&pid=" + productCode);`,
+  },
+  {
+    fileName: "Rimowa add to cart",
+    code: `function addToCartAPICall(pid, productsInBundle) {
+        var dataToSend = {
+            'pid': pid,
+            'source': 'pdp',
+            // 'DLObject%5Bname%5D': false,
+            action: '',
+            quantity: 1,
+            options: '%5B%5D'
+        }
+        var dataEncoded = ''
+        Object.entries(dataToSend).forEach(function ([key, value], index, array) {
+            dataEncoded += key + '=' + value + ((index != array.length - 1) ? '&' : '');
+        });
+    
+        var xhr_ = new XMLHttpRequest();
+        var xhr_url = document.querySelector('input.js-add-to-cart-url').value;
+        // xhr_.open("POST", 'https://www.rimowa.com/gb/en/addproduct?format=ajax', true);
+        xhr_.open("POST", xhr_url + '?format=ajax', true);
+        xhr_.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr_.onreadystatechange = function () {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                var response = JSON.parse(this.response);
+                var xhr__ = new XMLHttpRequest();
+                xhr__.open("POST", response.url + '?format=ajax', true);
+                xhr__.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                var dataToSend_ = 'pid=' + response.pid + '&' +
+                    'source=pdp&' +
+                    'action=&' +
+                    'DLQuantity=1&' +
+                    (function () {
+                        var str = '';
+                        Object.entries(response['DLObject']).forEach(function ([key, value], index, array) {
+                            str += 'DLObject[' + key + ']=' + value + ((index != array.length - 1) ? '&' : '');
+                        });
+                        return str;
+                    })();
+                xhr__.onreadystatechange = function () {
+                    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                        productsInBundle[pid] = true;
+                        var allProductsAddedToBundle = Object.values(productsInBundle).every(function (val) {
+                            return val;
+                        });
+                        allProductsAddedToBundle && bundleCart.addCurrentProduct();
+                        console.log('Product --' + pid + '-- added to cart! ------------->');
+                    }
+                }
+                xhr__.send(dataToSend_);
+            }
+        }
+        xhr_.send(dataEncoded);
+    }`,
+  },
+  {
+    fileName: "Match Media",
+    code: `let media = window.matchMedia('(max-width: 771px)');
 if (media.matches) {
     // code here if matches
 } else {
     // code here if doesn't match
-}`
-    },
-    {
-        fileName: "Network Call Check",
-        code:
-            `(function () {
+}`,
+  },
+  {
+    fileName: "Network Call Check",
+    code: `(function () {
     var send = XMLHttpRequest.prototype.send;
     XMLHttpRequest.prototype.send = function () {
         this.addEventListener('load', function (e) {
@@ -192,152 +191,11 @@ if (media.matches) {
         });
         return send.apply(this, arguments);
     };
-})();`
-    },
-    {
-        fileName: "reusable",
-        code:
-            `function prepend(newNode, referenceNode) {
-    referenceNode.insertBefore(newNode, referenceNode.firstChild);
-}
-
-function insertAfter(el, html) {
-    el.insertAdjacentHTML('afterend', html)
-}
-
-function insertBefore(el, html) {
-    el.insertAdjacentHTML('beforebegin', html);
-}
-
-function isElementVisibleInViewport(el) {
-    var top = el.getBoundingClientRect().top;
-    var right = el.getBoundingClientRect().right;
-    var bottom = el.getBoundingClientRect().bottom;
-    var left = el.getBoundingClientRect().left;
-    var innerWidth = window.innerWidth;
-    var innerHeight = window.innerHeight;
-
-
-    return ((top > 0 && top < innerHeight) || (bottom > 0 && bottom < innerHeight)) &&
-        ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
-};
-
-// dinamically added element click listener
-document.querySelector('body').addEventListener('click', function (e) {
-    if (e.target.classList.contains('alert-button')) {
-        alert(e.target.innerHTML);
-    }
-});
-// End
-
-
-// ajax post with payload data
-var dataPost = {
-    'id': 20656170041447, 'quantity': 1
-}
-$.ajax({
-    url: 'https://birthdate.co/cart/add.js',
-    type: "POST",
-    dataType: "json",
-    data: JSON.stringify(dataPost),
-    contentType: "application/json"
-});
-// End
-
-$.get(url, function (data, status) {
-
-    console.log($(data).find('.product-hero__content form select').val())
-    var productId = $(data).find('.product-hero__content form select').val();
-
-    addToCart(productId)
-});
-
-
-var data = {
-    methods: '[{"method":"reviews","params":{"pid":"10474182990","order_metadata_fields":{},"widget_product_id":"10474182990","data_source":"default","page":2,"host-widget":"main_widget","is_mobile":false,"pictures_per_review":10}}]',
-    app_key: 'wyBHjFDx5PcVFkHRTTimoC7QyhEwp31MsHHSB1z0',
-    is_mobile: false,
-    widget_version: '2021-10-04_11-16-57'
-}
-
-$.post("https://staticw2.yotpo.com/batch/app_key/wyBHjFDx5PcVFkHRTTimoC7QyhEwp31MsHHSB1z0/
-domain_key/10474182990/widget/reviews",
-    data, function (result) {
-        console.log(result);
-    });
-
-
-var request = new XMLHttpRequest();
-request.open("GET", "https://getcorewear.com/products/coremax-five-pack?variant=31314861391924", true);
-request.send(null);
-request.onreadystatechange = function () {
-    if (request.readyState == 4) {
-        var parser = new DOMParser();
-        var doc = parser.parseFromString(request.responseText, "text/html");
-        var elem = doc.querySelector(".product__prices span:nth-child(1)")
-        console.log(elem.innerHTML);
-    }
-}`
-    },
-    {
-        fileName: "Rimowa add to cart",
-        code:
-            `function addToCartAPICall(pid, productsInBundle) {
-    var dataToSend = {
-        'pid': pid,
-        'source': 'pdp',
-        // 'DLObject%5Bname%5D': false,
-        action: '',
-        quantity: 1,
-        options: '%5B%5D'
-    }
-    var dataEncoded = ''
-    Object.entries(dataToSend).forEach(function ([key, value], index, array) {
-        dataEncoded += key + '=' + value + ((index != array.length - 1) ? '&' : '');
-    });
-
-    var xhr_ = new XMLHttpRequest();
-    var xhr_url = document.querySelector('input.js-add-to-cart-url').value;
-    // xhr_.open("POST", 'https://www.rimowa.com/gb/en/addproduct?format=ajax', true);
-    xhr_.open("POST", xhr_url + '?format=ajax', true);
-    xhr_.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr_.onreadystatechange = function () {
-        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-            var response = JSON.parse(this.response);
-            var xhr__ = new XMLHttpRequest();
-            xhr__.open("POST", response.url + '?format=ajax', true);
-            xhr__.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-            var dataToSend_ = 'pid=' + response.pid + '&' +
-                'source=pdp&' +
-                'action=&' +
-                'DLQuantity=1&' +
-                (function () {
-                    var str = '';
-                    Object.entries(response['DLObject']).forEach(function ([key, value], index, array) {
-                        str += 'DLObject[' + key + ']=' + value + ((index != array.length - 1) ? '&' : '');
-                    });
-                    return str;
-                })();
-            xhr__.onreadystatechange = function () {
-                if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-                    productsInBundle[pid] = true;
-                    var allProductsAddedToBundle = Object.values(productsInBundle).every(function (val) {
-                        return val;
-                    });
-                    allProductsAddedToBundle && bundleCart.addCurrentProduct();
-                    console.log('Product --' + pid + '-- added to cart! ------------->');
-                }
-            }
-            xhr__.send(dataToSend_);
-        }
-    }
-    xhr_.send(dataEncoded);
-}`
-    },
-    {
-        fileName: "Show Div Once In A Day",
-        code:
-            `function checkPopInTime() {
+})();`,
+  },
+  {
+    fileName: "Show Div Once In A Day",
+    code: `function checkPopInTime() {
     if (localStorage.last) {
         if ((localStorage.last - Date.now()) / (1000 * 60 * 60 * 24 * 1) >= 1) { //Date.now() is in milliseconds, so convert it all to days, and if it's more than 1 day, show the div
             localStorage.last = Date.now(); //Reset your timer
@@ -348,12 +206,11 @@ request.onreadystatechange = function () {
         localStorage.last = Date.now();
         document.querySelector('.box').style.display = 'block';
     }
-}`
-    },
-    {
-        fileName: "SPA on url change content refresh",
-        code:
-            `(function (history) {
+}`,
+  },
+  {
+    fileName: "SPA on url change content refresh",
+    code: `(function (history) {
     if (window.URL_CHANGE_LISTENER_ADDED) {
         return;
     }
@@ -370,24 +227,22 @@ request.onreadystatechange = function () {
         return pushState.apply(history, arguments);
     };
     window.URL_CHANGE_LISTENER_ADDED = true;
-})(window.history);`
-    },
-    {
-        fileName: "Xmlhttpsrequest",
-        code:
-            `var xhr = new XMLHttpRequest();
+})(window.history);`,
+  },
+  {
+    fileName: "Xmlhttpsrequest",
+    code: `var xhr = new XMLHttpRequest();
 xhr.open("GET", url);
 xhr.onload = function () {
     if (this.status >= 200 && this.status < 300) {
         var availableContainer = ((new DOMParser()).parseFromString(xhr.response, 'text/html')).querySelector('.availability.product-availability');
     }
 };
-xhr.send();`
-    },
-    {
-        fileName: "carousel configaration",
-        code:
-            `// =========== slick slider ===========
+xhr.send();`,
+  },
+  {
+    fileName: "carousel configaration",
+    code: `// =========== slick slider ===========
 
 // slick slider resize on reposition
 $('.slider-class').slick('setPosition');
@@ -402,12 +257,11 @@ $('.homeBanner').trigger('refresh.owl.carousel');
 // stop autoplay 
 owl.on('changed.owl.carousel', function (event) {
     owl.trigger('stop.owl.autoplay');
-});`
-    },
-    {
-        fileName: "Url change detect",
-        code:
-            `(function urlChangeDetect() {
+});`,
+  },
+  {
+    fileName: "Url change detect",
+    code: `(function urlChangeDetect() {
   let lastUrl = location.href;
   new MutationObserver(() => {
     const url = location.href;
@@ -417,9 +271,43 @@ owl.on('changed.owl.carousel', function (event) {
       console.log("DY_mutation_observer");
     }
   }).observe(document.querySelector("body"), { subtree: true, childList: true });
-})();`
-    }
-
-]
+})();`,
+  },
+  {
+    fileName: "Script Load detect",
+    code: `var injectScript = (src) =>
+    new Promise((resolve, reject) => {
+        var script = document.createElement("script");
+        script.src = src;
+        script.addEventListener("load", resolve);
+        script.addEventListener("error", (e) => reject(e));
+        document.head.appendChild(script);
+    });
+    injectScript("https://unpkg.com/swiper@8/swiper-bundle.min.js")
+    .then(() => {
+        var swiper = new Swiper(".recently-viewed-modal", {
+        slidesPerView: 2,
+        breakpoints: {
+            1024: { slidesPerView: 4, spaceBetween: 24 },
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+    })
+    .catch((error) => {
+        console.error(error);
+});
+`,
+  },
+  {
+    fileName: "Replace an element (Slick Slider)",
+    code: `var videoContent = "<div>content..</div>";
+$(".pdp-img-carousel").slick("slickRemove", videoIndex, false);
+$(".pdp-img-carousel").slick("slickAdd", videoContent, 3, true);      
+      `,
+  },
+];
 
 export default abTastySnippetsData;
